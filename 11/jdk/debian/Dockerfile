@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ARG version=11.0.11.9-1
 # In addition to installing the Amazon corretto, we also install
